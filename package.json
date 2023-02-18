@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "reveal.js": "^4.4.0"
+  },
+  "name": "slides",
+  "version": "1.0.0",
+  "description": "fp 101 demo",
+  "main": "index.js",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "serve": "webpack-dev-server --hot"
+  },
+  "keywords": [
+    "fp"
+  ],
+  "author": "esko niiranen",
+  "license": "ISC"
+}
